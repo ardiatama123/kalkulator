@@ -1,0 +1,53 @@
+table {
+	border : none;
+	border-collapse: collapse;
+}
+td{
+	padding: 2px;
+	border: none;
+	margin:2px;
+}
+tr{
+	margin-bottom: 2px;
+}
+input[type=text]{
+	width: 210px;
+	padding: 10px;
+	border-style: solid;
+	text-align: center;
+	font-size: 16px;
+	font-style: inherit;
+	color: black;
+	border-color: black;
+	margin: 2px;
+}
+
+.simbol[type=text]{
+	width:100px;
+	border-color: red;
+	color: black;
+	font-size: 12px;
+}
+input[type=text]:disabled{
+	background-color: white;
+}
+.btn {
+	width: 100px;
+	height: 40px;
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 2px;
+}
+.opr{
+		background-color: #4CAF50;
+}
+.clr{
+	background-color: #f44336;;
+}
+.hsl{
+	background-color: #008CBA;
+}
